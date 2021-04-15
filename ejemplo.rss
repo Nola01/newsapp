@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+    <channel>
+        <title>
+            Título del canal de noticias
+        </title>
+        <link>
+            http://enlace.al.canal.de.noticias.rss
+        </link>
+        <description>
+            Noticias de última hora de mi canal
+        </description>
+        <image>
+            <!-- Imagen del canal -->
+            <url>http://enlace.a.la.imagen.del.canal/foto.jpg</url>
+            <title>Título de la imagen para el "alt"</title>
+            <link>http://página.oficial.del.periodico</link>
+        </image>
+
+        <item>
+            <titulo>Título de la noticia</titulo>
+            <link>http://enlace.a.la.noticia.html</link>
+            <description>Texto que acompaña a la noticia</description>
+            <pubDate>2021-03-15 8:51</pubDate>
+        </item>
+
+        <item>
+            <titulo>Título de la noticia</titulo>
+            <link>http://enlace.a.la.noticia.html</link>
+            <description>Texto que acompaña a la noticia</description>
+            <pubDate>2021-03-15 8:51</pubDate>
+        </item>
+    </channel>
+</rss>

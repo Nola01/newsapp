@@ -1,0 +1,48 @@
+body {	
+	background-repeat: no-repeat;
+	opacity: 0.8;		
+	background-attachment: fixed;
+	background-size: 100%;
+	color: white;
+    font-family: Impact;
+}
+
+h1,h3 {
+    color: white;
+}
+
+h2 {
+    color: white
+}
+
+p {
+    font-family: verdana;
+    font-size: 15px;
+}
+
+li {
+    font-family: verdana;
+    font-size: 16px;
+}
+
+div {
+    background-color: green;
+}
+
+.navbar-brand {
+    background-color: goldenrod;
+}
+
+/* las clases van con . (class="una_clase") */
+.panel {
+    opacity: inherit;
+    background-color: black;
+    text-align: center;
+}
+
+div {
+    background-color: goldenrod;
+}
+
+
+
