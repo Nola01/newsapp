@@ -35,6 +35,8 @@
   * @param {*} panel_inicial 
   */
  $.controller.init = function (panel_inicial) {
+
+    $.predefinidos.carga();
      
      console.log("Panel inicial="+panel_inicial);
  
@@ -103,7 +105,6 @@
                  canal.nombre+"</option>");
          });
          
-         
  
      });
  
@@ -162,6 +163,20 @@
          $.marcadores.guardar();
          $.controller.listChannels();
      });
+
+     // Actualiza la lista de predefinidos
+     $("#menu_predefinidos").click( function(){
+        let html= "<ol>";
+         // Bucle forEach:
+         // canal: es un objeto de la lista
+         // indes: es su posición en la lista 
+         $.predefinidos.lista.forEach( (canal, index) =>{
+             html += "<li>"+
+                 canal.nombre+"</li>";
+         });
+         html += "</ol>";
+         $("#caja_predefinidos").html(html);
+    });
  }
  
  /**
