@@ -4,7 +4,7 @@ body {
 	background-attachment: fixed;
 	background-size: 100%;
 	color: white;
-    font-family: Impact;
+    font-family: 'Orelega One', cursive;
 }
 
 .bg-secondary {
@@ -20,8 +20,8 @@ h2 {
 }
 
 p {
-    font-family: verdana;
-    font-size: 15px;
+    font-family:'Orelega One', cursive;
+    font-size: 20px;
 }
 
 li {
@@ -29,15 +29,10 @@ li {
     font-size: 16px;
 }
 
-div {
-    background-color: green;
-}
-
 .navbar-brand {
     background-color: goldenrod;
 }
 
-/* las clases van con . (class="una_clase") */
 .panel {
     opacity: inherit;
     background-color: black;
@@ -47,6 +42,40 @@ div {
 div {
     background-color: goldenrod;
 }
-
-
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+form li + li {
+    margin-top: 1em;
+}
+  
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+  
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
+  
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+  
+.button {
+    padding-left: 90px;
+}
+  
+button {
+    margin-left: .5em;
+}
 

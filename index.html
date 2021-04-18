@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="css/style.css" >
   <style>
     body {
-        background: url("img/fondo2.jpg") #004024;	
+        background: url("img/fondo2.jpg") #84652b;	
     }
-</style>
+  </style>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                     Gestión de canales
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownHtml5">
-                    <a id="menu_listar" class="dropdown-item" href="#">Listar Canales</a>
+                    <a id="menu_listar" class="dropdown-item" href="#">Lista de canales</a>
                     <a id="menu_añadir" class="dropdown-item" href="#">Añadir un Canal</a>
                     <a id="menu_editar" class="dropdown-item" href="#">Editar un Canal</a>
                     <a id="menu_borrar" class="dropdown-item" href="#">Borrar un canal</a>
@@ -101,8 +101,8 @@
       </div>
 
       <div class="form-group">
-        <div id="añadirCanal" class="btn btn-success">aceptar</div>
-        <div id="cancelarCanal" class="btn btn-danger">cancelar</div>
+        <div id="añadirCanal" class="btn btn-success">Aceptar</div>
+        <div id="cancelarCanal" class="btn btn-danger">Cancelar</div>
       </div>
 
     </form>
@@ -121,8 +121,8 @@
       </div>
 
       <div class="form-group">
-        <div id="botonEditarAceptar" class="btn btn-danger">seleccionar</div>
-        <div id="botonEditarCancelar" class="btn btn-info">cancelar</div>
+        <div id="botonEditarAceptar" class="btn btn-danger">Seleccionar</div>
+        <div id="botonEditarCancelar" class="btn btn-info">Cancelar</div>
       </div>
     </div>
   </div>
@@ -155,8 +155,8 @@
       </div>
 
       <div class="form-group">
-        <div id="añadirCanalEditar" class="btn btn-success">actualizar</div>
-        <div id="cancelarCanalEditar" class="btn btn-danger">cancelar</div>
+        <div id="añadirCanalEditar" class="btn btn-success">Actualizar</div>
+        <div id="cancelarCanalEditar" class="btn btn-danger">Cancelar</div>
       </div>
 
     </form>
@@ -175,8 +175,8 @@
       </div>
 
       <div class="form-group">
-        <div id="botonBorrarAceptar" class="btn btn-danger">borrar</div>
-        <div id="botonBorrarCancelar" class="btn btn-info">cancelar</div>
+        <div id="botonBorrarAceptar" class="btn btn-danger">Borrar</div>
+        <div id="botonBorrarCancelar" class="btn btn-info">Cancelar</div>
       </div>
     </div>
   </div>
@@ -184,14 +184,47 @@
   <div id="caja_ayuda" class="panel">
     <h2>Ayuda</h2>
     <div>
-        <p>Cómo funciona la APP.</p>
+        <p>NewsApp es una aplicación web que le permite añadir, editar y borrar canales de noticias de tipo RSS y ATOM.</p>
+        <p>Desde el menú "Lista de canales" puede acceder de forma sencilla a los distintos canales que ya añadidos, y dentro de cada uno de ellos tendrá los enlaces directos
+          a las noticias del canal (por ejemplo, las noticias del periódico "El Pais").
+        </p>
+        <p>
+          Esta aplicación también incluye una lista de canales predefinidos, que ya están listos para consultar, es decir, no es necesario añadirlos. Puede acceder a ellos
+          en el menú "Lista de predefinidos".
+        </p>
+        <p>
+          Para cualquier duda o sugerencia puede introducir sus datos y su mensaje en el siguiente formulario:
+        </p>
+        
+        <form>
+          <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="nombre_usuario" name="nombre_usuario">
+          </div>
+        
+          <div>
+            <label for="Correo">E-mail:</label>
+            <input type="email" id="correo_usuario" name="correo_usuario">
+          </div>
+        
+          <div>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="mensaje_usuario"></textarea>
+          </div>
+        
+          <div class="button">
+            <a onclick="alert('(Error al enviar el mensaje. Estamos trabajando en ello... 🛠️💻)'); event.preventDefault();" href="#" target="_blank">
+              <button type="submit">Enviar</button>
+            </a>
+          </div>
+        </form>
     </div>
   </div>
 
   <div id="caja_licencia" class="panel">
-    <h2>Copyright o Creative Commons</h2>
+    <h2>Tipo de licencia</h2>
     <div>
-        <p>Tipo de licencia.</p>
+        <p>Creative Commons</p>
     </div>
   </div>
 
@@ -213,8 +246,8 @@
     
   </div>
   <footer>
-    Juan Maria Nolasco Romero
-    Curso 2020-21.
+    Juan Maria Nolasco Romero <br>
+    1º DAM Curso 2020-21.
   </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"> </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

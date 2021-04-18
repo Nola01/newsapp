@@ -150,6 +150,7 @@
              canal.tipo = 'RSS';
              $.marcadores.lista.push(canal);
              $.marcadores.guardar();
+             fn_callback("EXITO", "Correcto:", "Marcador Almacenado");
          } else {
              // Compruebo si es un canal ATOM leyendo el nodo raíz (documentElement)
              if (documento.documentElement.tagName == 'feed'){
