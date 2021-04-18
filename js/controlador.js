@@ -104,6 +104,8 @@
              $("#selectBorrar").append("<option value='"+index+"'>"+
                  canal.nombre+"</option>");
          });
+         $.predefinidos.carga();
+         console.log($.predefinidos.lista);
          
  
      });
@@ -176,7 +178,8 @@
          });
          html += "</ol>";
          $("#caja_predefinidos").html(html);
-    });
+     });
+    
  }
  
  /**

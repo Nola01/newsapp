@@ -7,6 +7,10 @@ body {
     font-family: Impact;
 }
 
+.bg-secondary {
+    background-color: #84652b !important;
+}
+
 h1,h3 {
     color: white;
 }
